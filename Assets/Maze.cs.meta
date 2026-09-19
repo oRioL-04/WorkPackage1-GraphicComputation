@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: eb635519ffa404b72908cb601ff606c1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - corridorSquare: {fileID: 3278080318161634805, guid: e7e658331f9c84c87b50b50578b1807a, type: 3}
+  - wallSquare: {fileID: 993840324645457532, guid: a7fc431c862ba495a985c8824de7296d, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
