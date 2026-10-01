@@ -167,7 +167,15 @@ It must contain:
 
 ---
 
-## 6. Requirement Compliance Summary
+## 6. Additional Contribution
+
+![Entrance and exit markers](screenshots/Captura%20de%20pantalla%202026-10-01%20a%20las%2018.51.15.png)
+
+*Figure 6: Generated maze showing the green entrance and red exit markers.*
+
+---
+
+## 7. Requirement Compliance Summary
 
 | Requirement | Evidence in the implementation | Status |
 | :--- | :--- | :--- |
@@ -175,5 +183,6 @@ It must contain:
 | Easy modification of dimensions | `ROWS` and `COLS` are defined as simple integer variables | Completed |
 | Includes loops | `AddLoops()` removes selected internal walls with low probability | Completed |
 | Runtime validation | Pressing `Spacebar` regenerates a new maze | Completed |
+| Entrance and exit markers | Green and red corridor cells identify the maze endpoints | Additional contribution |
 
 

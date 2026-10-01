@@ -16,6 +16,9 @@ public class Maze : MonoBehaviour
     int[,] maze;
     bool[,] visited;
     ArrayList _squares;
+
+    public Color entranceColor = Color.green;
+    public Color exitColor = Color.red;
  
     // Start is called before the first frame update
     void Start()
@@ -157,6 +160,11 @@ public class Maze : MonoBehaviour
                     obj = Instantiate(corridorSquare) as GameObject;
                 else
                     obj = Instantiate(wallSquare) as GameObject;
+
+                if (maze[i, j] == 0 && i == 1 && j == 1)
+                    obj.GetComponent<SpriteRenderer>().color = entranceColor;
+                else if (maze[i, j] == 0 && i == ROWS - 2 && j == COLS - 2)
+                    obj.GetComponent<SpriteRenderer>().color = exitColor;
  
                 obj.transform.position = new Vector3((float)j - COLS / 2, (float)i - ROWS / 2, 0.0f);
                 obj.transform.parent = this.gameObject.transform;
