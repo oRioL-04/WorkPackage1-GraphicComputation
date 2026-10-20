@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f28e61524668449df83c3e660be30078
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - maze: {instanceID: 0}
+  - mouthClosed: {fileID: 2197757784316077965, guid: e2d90cd94dced465fa20168b0aa6bd20, type: 3}
+  - mouthHalf: {fileID: -812546124296353477, guid: e2d90cd94dced465fa20168b0aa6bd20, type: 3}
+  - mouthOpen: {fileID: 6095723403077977474, guid: e2d90cd94dced465fa20168b0aa6bd20, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
