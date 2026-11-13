@@ -199,15 +199,15 @@ public static class WP4Setup
         GameObject cr = CreatePanel(canvas.transform, "CreditsPanel", Color.clear);
         CreateText(cr.transform, "Title", "CREDITS", 90, new Vector2(0, 340), new Vector2(1200, 120));
         Text body = CreateText(cr.transform, "Body",
-            "Game programmer: Oriol\n" +
-            "Art director: Oriol\n" +
-            "VFX designer: Oriol\n" +
-            "Shader / Technical artist: Oriol\n" +
+            "Game programmer: Oriol Ferrer i Cesc Sierra\n" +
+            "Art director: Oriol Ferrer i Cesc Sierra\n" +
+            "VFX designer: Oriol Ferrer i Cesc Sierra\n" +
+            "Shader / Technical artist: Oriol Ferrer i Cesc Sierra\n" +
             "Level design: procedural maze generator\n\n" +
             "Character & animations: Remy (Mixamo)\n" +
             "Textures: ambientCG.com (CC0)\n" +
             "Made with Unity 6 - Computer Graphics and Multimedia, UdL",
-            40, new Vector2(0, 60), new Vector2(1400, 520));
+            40, new Vector2(0, -10), new Vector2(1400, 520));
         body.alignment = TextAnchor.UpperCenter;
         Button back = CreateButton(cr.transform, "BackButton", "Back", new Vector2(0, -330));
         UnityEventTools.AddPersistentListener(back.onClick, menu.ShowMain);

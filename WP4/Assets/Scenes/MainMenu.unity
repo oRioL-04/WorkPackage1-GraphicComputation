@@ -1034,7 +1034,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 60}
+  m_AnchoredPosition: {x: 0, y: -10}
   m_SizeDelta: {x: 1400, y: 520}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195449590
@@ -1070,13 +1070,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Game programmer: Oriol
+  m_Text: 'Game programmer: Oriol Ferrer i Cesc Sierra
 
-    Art director: Oriol
+    Art director: Oriol Ferrer i Cesc Sierra
 
-    VFX designer: Oriol
+    VFX designer: Oriol Ferrer i Cesc Sierra
 
-    Shader / Technical artist: Oriol
+    Shader / Technical artist: Oriol Ferrer i Cesc Sierra
 
     Level design: procedural maze generator
 
